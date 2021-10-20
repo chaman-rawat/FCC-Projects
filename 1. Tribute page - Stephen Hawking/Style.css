@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(to right, #334d50, #cbcaa5);
+}
+
+body {
+    line-height: 1.5;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: "Comic Sans MS", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+    margin: auto;
+    width: 100%;
+    background-color: #ffffff09;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#title {
+    font-size: 3.5rem;
+    font-family: 'Roboto Slab', serif, 'Segoe UI';
+    margin: 0 auto;
+}
+
+#img-div {
+    width: fit-content;
+    max-width: 98%;
+    padding: 12px;
+    margin: 0 auto;
+    background: #864b21d1;
+    border-radius: 7px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#img-caption {
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 98%;
+}
+
+#tribute-info {
+    margin: 0 5%;
+}
+
+ul {
+    text-align: left;
+    padding: 10px 30px;
+    margin: 0 15%;
+}
+
+blockquote {
+    background: #1d7ca959;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        padding: 0px;
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    #main {
+        margin: 0px auto;
+        background: transparent;
+    }
+
+    #title {
+        font-size: 2.2rem;
+    }
+
+    #img-div {
+        width: fit-content;
+        max-width: 100%;
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+    #tribute-info {
+        margin: 0;
+    }
+
+    ul {
+        text-align: left;
+        padding: 0;
+        margin: 0 10%;
+    }
+
+    blockquote {
+        font-size: 1.15rem;
+        border-radius: 10px;
+        margin: 0 3%;
+    }
+}
